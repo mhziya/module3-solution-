@@ -1,15 +1,27 @@
-.tall-section {
+.navbar-brand {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-section {
   height: 1000px;
-  background-color: #f5e6c8;
-  border: 1px solid #cccccc;
+  background-color: #e8e8e8;
+  padding-top: 15px;
+}
+
+.menu-item {
+  background-color: #b0b0b0;
+  padding: 10px 15px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
   #collapsable-nav {
-    background-color: #d9534f;
+    background-color: #d0d0d0;
   }
 
   #collapsable-nav a {
-    color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid #999;
   }
 }
