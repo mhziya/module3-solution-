@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Food, LLC</title>
+  <title>Module 3 Solution</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -13,31 +13,50 @@
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Food, LLC</a>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#collapsable-nav" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
       </div>
-
       <div id="collapsable-nav" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav hidden-sm hidden-md hidden-lg">
-          <li><a href="#">Chicken</a></li>
-          <li><a href="#">Beef</a></li>
-          <li><a href="#">Sushi</a></li>
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#chicken">Chicken</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#sushi">Sushi</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <h1 class="text-center">Our Menu</h1>
+  <h1 id="top" class="text-center">Our Menu</h1>
 
   <div class="container">
     <div class="row">
-      <section class="col-xs-12 tall-section">
-        <p>Menu content goes here.</p>
+      <section class="col-xs-12 main-section">
+        <div class="row">
+          <div id="chicken" class="col-md-4 col-sm-6 col-xs-12">
+            <div class="menu-item">
+              <h3 class="text-center">Chicken</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <a href="#top">Back To Top</a>
+            </div>
+          </div>
+          <div id="beef" class="col-md-4 col-sm-6 col-xs-12">
+            <div class="menu-item">
+              <h3 class="text-center">Beef</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <a href="#top">Back To Top</a>
+            </div>
+          </div>
+          <div id="sushi" class="col-md-4 col-sm-12 col-xs-12">
+            <div class="menu-item">
+              <h3 class="text-center">Sushi</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <a href="#top">Back To Top</a>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </div>
